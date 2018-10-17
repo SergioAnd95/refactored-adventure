@@ -5,6 +5,8 @@ DEBUG = False
 APP_HOST = os.environ.get('APP_HOST', '')
 APP_PORT = os.environ.get('APP_PORT', 80)
 
+APP_SECRET = 'fhdfhaksjdf#sadfjklsdj@kjfdds'
+
 INSTALLED_APPS = [
     'auth'
 ]
